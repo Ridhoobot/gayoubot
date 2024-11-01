@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from pytgcalls import PyTgCalls
 from pytgcalls import filters as fl
 from pyromod import listen
-from PyroUbot import 
+from PyroUbot config.py import 
 from aiohttp import ClientSession
 
 class ConnectionHandler(logging.Handler):
