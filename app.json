@@ -9,6 +9,18 @@
             "required": true,
             "value": "isi disini"
         },
+        "API_ID": {
+            "description": "",
+            "required": true
+        },   
+        "API_HASH": {
+            "description": "",
+            "required": true
+        },
+        "DEVS": {
+            "description": "",
+            "required": true
+        },
         "OPENAI_API": {
             "description": "Jika ingin menggunakan openai, isi openai-api-key",
             "required": false,
@@ -16,7 +28,7 @@
         },
         "BLACKLIST_CHAT":{
             "required": true,
-            " value": "isi gc yg mau di bl"
+            " value": "-1002125842026"
         },   
         "OWNER_ID": {
             "description": "Fill there your I'd go to @geezramrobot pm and type /id",
@@ -26,7 +38,7 @@
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": "bot token mu"
+            "value": ""
         },
         "BOTLOG_CHATID": {
             "description": "fill with your Publik LOG Group",
