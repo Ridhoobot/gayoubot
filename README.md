@@ -22,6 +22,11 @@
     </a>
 </p>
 
+## Deploy on Heroku
+<h3 align="center">Click The Button</h3>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Ridhoobot/gayoubot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+</div>
+
 ## Pyrogram
 > This Pyrogram code, Recode With BY <a href="https://t.me/wannoffc08">WannOfficial</a>
 ___________________________________________
