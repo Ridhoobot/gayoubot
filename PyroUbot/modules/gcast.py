@@ -57,7 +57,7 @@ async def _(client, message):
 async def _(client, message):
     await set_mention_message(client, message)
 
-@ubot.on_message(filters.command("gcast", "$"=True)
+@ubot.on_message(filters.command("gcast", sudo=True)
 @PY.UBOT("gcast")
 async def _(client, message):
     await broadcast_group_cmd(client, message)
