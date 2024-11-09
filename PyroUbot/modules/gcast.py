@@ -57,17 +57,17 @@ async def _(client, message):
 async def _(client, message):
     await set_mention_message(client, message)
 
-@ubot.on_message(filters.command("gcast", "$") & filters.user(SUDO_USERS))
+@ubot.on_message(filters.command("gcast", "$"=True)
 @PY.UBOT("gcast")
 async def _(client, message):
     await broadcast_group_cmd(client, message)
 
-@ubot.on_message(filters.command("bgcast", "$") & filters.user(SUDO_USERS))
+@ubot.on_message(filters.command("bgcast", "$"=True) 
 @PY.UBOT("bgcast")
 async def _(client, message):
     await blue_gcast(client, message)
 
-@ubot.on_message(filters.command("fgcast", "$") & filters.user(SUDO_USERS))
+@ubot.on_message(filters.command("fgcast", "$"=True) 
 @PY.UBOT("fgcast")
 async def _(client, message):
     await broadcast_cmd(client, message)
