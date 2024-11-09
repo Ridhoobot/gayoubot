@@ -4,10 +4,15 @@
     "repository": "https://github.com/Ridhoobot/Repoprem",
     "stack": "container",
     "env": {
-        "MONGO_URL": {
-            "description": "Fill there an mongo database from mongodb.com",
-            "required": true,
-            "value": "mongodb+srv://aldiusulu283:userbot112233@cluster0.6fbhre1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        "MAX_BOT": {
+            "description": "",
+            "required": true
+            "value": "10"
+        },
+        "DEVS": {
+            "description": "",
+            "required": true
+            "value": "48475277"
         },
         "API_ID": {
             "description": "",
@@ -19,29 +24,29 @@
             "required": true
             "value": "98047b45b5940a7961a5f4dd3a907448"
         },
-        "USER_GROUP": {
-            "description": "",
-            "required": true
-            "value": "@XCIPIT"
-        },
-        "MAX_BOT": {
-            "description": "",
-            "required": true
-            "value": "10"
-        },
-        "BLACKLIST_CHAT":{
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": "-1002125842026"
-        },   
+            "value": "7048869311:AAFOUDvJhnpMNn7GM4vz35fioWevBot2iaE"
+        },
         "OWNER_ID": {
             "description": "Fill there your I'd go to @geezramrobot pm and type /id",
             "required": true,
             "value": "48475277"
         },
-        "BOT_TOKEN": {
-            "description": "fill with your bot token get from @BotFather on telegram",
+        "USER_GROUP": {
+            "description": "",
+            "required": true
+            "value": "@XCIPIT"
+        },
+        "BLACKLIST_CHAT":{
             "required": true,
-            "value": "7048869311:AAFOUDvJhnpMNn7GM4vz35fioWevBot2iaE"
+            "value": "-1002125842026"
+        },   
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": "mongodb+srv://aldiusulu283:userbot112233@cluster0.6fbhre1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         },
         "LOGS_MAKER_UBOT": {
             "description": "fill with your Publik LOG Group",
