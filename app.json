@@ -1,7 +1,7 @@
 {
     "name": "Galaxy Userbot",
     "description": "UserBot BIASA AJAH !!!.",
-    "repository": "https://github.com/Ridhoobot/Repoprem",
+    "repository": "https://github.com/Ridhoobot/gayoubot",
     "stack": "container",
     "env": {
         "MAX_BOT": {
@@ -34,15 +34,15 @@
             "required": true,
             "value": "48475277"
         },
-        "USER_GROUP": {
-            "description": "",
-            "required": true
-            "value": "@XCIPIT"
-        },
         "BLACKLIST_CHAT":{
             "required": true,
             "value": "-1002125842026"
-        },   
+        },
+        "RMBG_API": {
+            "description": "",
+            "required": true
+            "value": "a6qxsmMJ3CsNo7HyxuKGsP1o"
+        },
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
             "required": true,
@@ -52,6 +52,11 @@
             "description": "fill with your Publik LOG Group",
             "required": false,
             "value": "-1002086128389"
+        },
+        "USER_GROUP": {
+            "description": "",
+            "required": true
+            "value": "@XCIPIT"
         },
         "HEROKU_API_KEY": {
             "description": "Heroku Api Key",
