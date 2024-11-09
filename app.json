@@ -19,11 +19,6 @@
             "required": true
             "value": "98047b45b5940a7961a5f4dd3a907448"
         },
-        "DEVS": {
-            "description": "",
-            "required": true
-            "value": "48475277"
-        },
         "USER_GROUP": {
             "description": "",
             "required": true
@@ -33,11 +28,6 @@
             "description": "",
             "required": true
             "value": "10"
-        },
-        "RMBG_API": {
-            "description": "Jika ingin menggunakan openai, isi openai-api-key",
-            "required": false,
-            "value": "a6qxsmMJ3CsNo7HyxuKGsP1o"
         },
         "BLACKLIST_CHAT":{
             "required": true,
