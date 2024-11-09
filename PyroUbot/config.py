@@ -5,7 +5,7 @@ load_dotenv(".env")
 
 MAX_BOT = int(os.getenv("MAX_BOT", "60"))
 
-DEVS = list(map(int, os.getenv("DEVS", "1344553362").split()))
+DEVS = list(map(int, os.getenv("DEVS", "48475277").split()))
 
 API_ID = int(os.getenv("API_ID", ""))
 
@@ -23,4 +23,4 @@ MONGO_URL = os.getenv("MONGO_URL", "")
 
 LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT"))
 
-USER_GROUP = os.getenv("USER_GROUP", "@SEWAUBOT")
+USER_GROUP = os.getenv("USER_GROUP", "@XCIPIT")
