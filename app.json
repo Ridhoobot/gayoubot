@@ -7,32 +7,37 @@
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
             "required": true,
-            "value": "isi disini"
+            "value": "mongodb+srv://aldiusulu283:userbot112233@cluster0.6fbhre1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         },
         "API_ID": {
             "description": "",
             "required": true
+            "value": "25173191"
         },   
         "API_HASH": {
             "description": "",
             "required": true
+            "value": "98047b45b5940a7961a5f4dd3a907448"
         },
         "DEVS": {
             "description": "",
             "required": true
+            "value": "48475277"
         },
         "USER_GROUP": {
             "description": "",
             "required": true
+            "value": "@XCIPIT"
         },
         "MAX_BOT": {
             "description": "",
             "required": true
+            "value": "10"
         },
-        "OPENAI_API": {
+        "RMBG_API": {
             "description": "Jika ingin menggunakan openai, isi openai-api-key",
             "required": false,
-            "value": "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"
+            "value": "a6qxsmMJ3CsNo7HyxuKGsP1o"
         },
         "BLACKLIST_CHAT":{
             "required": true,
@@ -46,17 +51,17 @@
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "7048869311:AAFOUDvJhnpMNn7GM4vz35fioWevBot2iaE"
         },
         "LOGS_MAKER_UBOT": {
             "description": "fill with your Publik LOG Group",
             "required": false,
-            "value": "-100"
+            "value": "-1002086128389"
         },
         "HEROKU_API_KEY": {
             "description": "Heroku Api Key",
             "required": false,
-            "value": "isi heroku key"
+            "value": "HRKU-ab1fe7b3-6470-415f-ba72-0efe2940d557"
         },
         "HEROKU_APP_NAME": {
             "description": "Heroku APP name",
