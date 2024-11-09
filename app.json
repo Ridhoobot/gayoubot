@@ -1,7 +1,7 @@
 {
-    "name": "Userbot",
-    "description": "UserBot.",
-    "repository": ".",
+    "name": "Galaxy Userbot",
+    "description": "UserBot BIASA AJAH !!!.",
+    "repository": "https://github.com/Ridhoobot/Repoprem",
     "stack": "container",
     "env": {
         "MONGO_URL": {
@@ -31,7 +31,7 @@
         },
         "BLACKLIST_CHAT":{
             "required": true,
-            " value": "-1002125842026"
+            "value": "-1002125842026"
         },   
         "OWNER_ID": {
             "description": "Fill there your I'd go to @geezramrobot pm and type /id",
