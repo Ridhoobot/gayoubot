@@ -6,22 +6,22 @@
     "env": {
         "MAX_BOT": {
             "description": "",
-            "required": true
+            "required": true,
             "value": "10"
         },
         "DEVS": {
             "description": "",
-            "required": true
+            "required": true,
             "value": "48475277"
         },
         "API_ID": {
             "description": "",
-            "required": true
+            "required": true,
             "value": "25173191"
-        },   
+        },
         "API_HASH": {
             "description": "",
-            "required": true
+            "required": true,
             "value": "98047b45b5940a7961a5f4dd3a907448"
         },
         "BOT_TOKEN": {
@@ -34,13 +34,13 @@
             "required": true,
             "value": "48475277"
         },
-        "BLACKLIST_CHAT":{
+        "BLACKLIST_CHAT": {
             "required": true,
             "value": "-1002125842026"
         },
         "RMBG_API": {
             "description": "",
-            "required": true
+            "required": true,
             "value": "a6qxsmMJ3CsNo7HyxuKGsP1o"
         },
         "MONGO_URL": {
@@ -55,7 +55,7 @@
         },
         "USER_GROUP": {
             "description": "",
-            "required": true
+            "required": true,
             "value": "@XCIPIT"
         },
         "HEROKU_API_KEY": {
@@ -69,9 +69,15 @@
             "value": ""
         }
     },
-        "buildpacks": [
-        {"url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg"},
-        {"url": "https://github.com/subinps/heroku-buildpack-nodejs"},
-        {"url": "heroku/python"}
+    "buildpacks": [
+        {
+            "url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg"
+        },
+        {
+            "url": "https://github.com/subinps/heroku-buildpack-nodejs"
+        },
+        {
+            "url": "heroku/python"
+        }
     ]
-    }
+}
